@@ -1,36 +1,19 @@
 site_name: PIREGAL 2026
-site_description: Cultura, Disciplina y Excelencia Técnica.
-site_author: Sergio Piregal
-
 theme:
   name: material
   language: es
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: black
-      accent: blue grey
-  font:
-    text: Montserrat
-    code: Roboto Mono
-  icon:
-    logo: material/shield-check-outline
+  logo: material/shield-check-outline
   features:
     - navigation.tabs
     - navigation.sections
     - search.highlight
-    - content.code.copy
 
 nav:
   - '🏠 Inicio': index.md
-  - '📘 Identidad':
-      - 'Quiénes Somos': docs/v1-identidad/quienes-somos.md
-  - '👷 Trabajador':
-      - 'Manual de Conducta': docs/v2-trabajador/manual.md
-  - '🤝 Alianza Herculan':
-      - 'PMEE 2026': docs/v3-alianza/pmee.md
+  - '📘 Identidad': docs/v1-identidad/quienes-somos.md
+  - '👷 Trabajador': docs/v2-trabajador/manual.md
+  - '🤝 Alianza Herculan': docs/v3-alianza/pmee.md
   - '🏗️ Operativa':
       - 'Protocolo de Obra': docs/v4-operativa/protocolo-obra.md
       - 'NCR e Incidencias': docs/v4-operativa/ncr.md
-  - '⚖️ Compliance':
-      - 'Transparencia': docs/v5-compliance/transparencia.md
+  - '⚖️ Compliance': docs/v5-compliance/transparencia.md
