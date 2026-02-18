@@ -30,6 +30,7 @@ plugins:
           "🤝 Alianza": "🤝 Alliance"
           "🛠️ Operativa": "🛠️ Operations"
           "👨‍🔧 Equipo": "👨‍🔧 Staff"
+
 nav:
   - "🏠 Inicio": index.md
   - "🛡️ Identidad":
