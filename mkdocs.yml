@@ -8,13 +8,13 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black       # Negro Carbón
-      accent: blue grey    # Azul Acero
+      primary: black
+      accent: blue grey
   font:
     text: Montserrat
     code: Roboto Mono
   icon:
-    logo: material/shield-check-outline # El Escudo Ético
+    logo: material/shield-check-outline
   features:
     - navigation.tabs
     - navigation.sections
@@ -25,40 +25,13 @@ nav:
   - '🏠 Inicio': index.md
   - '📘 Identidad':
       - 'Quiénes Somos': docs/v1-identidad/quienes-somos.md
-      - 'Valores y Cultura': docs/v1-identidad/valores-cultura.md
-      - 'Escudo Ético': docs/v1-identidad/escudo-etico.md
-  - '👷 Trabajador':
-      - 'Manual del Trabajador': docs/v2-trabajador/manual.md
-      - 'Responsabilidad Individual': docs/v2-trabajador/responsabilidad.md
-      - 'Sistema de Registro': docs/v2-trabajador/registro-diario.md
   - '🤝 Alianza Herculan':
-      - 'Simbiosis Operativa': docs/v3-alianza/simbiosis.md
       - 'PMEE 2026': docs/v3-alianza/pmee.md
-      - 'PSAH (Auditoría)': docs/v3-alianza/psah.md
-      - 'Hub Vigo': docs/v3-alianza/hub-vigo.md
-  - '🏗️ Táctica de Obra':
-      - 'Protocolo Operativo': docs/v4-operativa/protocolo-obra.md
-      - 'Control Ambiental': docs/v4-operativa/control-ambiental.md
-      - 'NCR (No Conformidad)': docs/v4-operativa/ncr.md
-      - 'Notice of Delay (NOD)': docs/v4-operativa/nod.md
-  - '⚖️ Compliance':
-      - 'Acuerdo NDA': docs/v5-compliance/nda.md
-      - 'Matriz de Responsabilidad': docs/v5-compliance/matriz-responsabilidad.md
-      - 'Transparencia Radical': docs/v5-compliance/transparencia.md
-
-extra:
-  alternate:
-    - name: Español
-      link: /
-      lang: es
-    - name: English
-      link: /en/
-      lang: en
 
 plugins:
   - i18n:
       default_language: es
       languages:
-        es: español
-        en: english
+        - es
+        - en
   - search
