@@ -1,11 +1,16 @@
-# 👷 Manual del Trabajador: Responsabilidad Individual
+# 👷 Manual de Conducta PIREGAL
 
-En **Piregal**, un error técnico no es un fallo fortuito: es una ruptura del estándar de élite.
+Este manual define el estándar de comportamiento exigido para formar parte de nuestro equipo de élite.
 
-### 2.1. Rigor Técnico Absoluto
-* **Medición:** Obligación de medir correctamente cada mezcla.
-* **Documentación:** Si no está documentado (fotos, lotes, ambiente), no existe.
-* **Herramientas:** Deben mantenerse impecables; la suciedad es causa de falta grave.
+## 1. Valores Fundamentales
+* **Rigor:** La precisión en la mezcla y la aplicación no es negociable.
+* **Trazabilidad:** Todo paso debe ser fotografiado y registrado en el ITP.
+* **Imagen:** El respeto al cliente y el cuidado de la herramienta reflejan la calidad de nuestro trabajo.
 
-### 2.4. Conducta Profesional
-Se exige puntualidad, respeto y una imagen profesional acorde a un equipo de élite.
+## 2. Normas de Obra
+* Prohibido fumar o comer en las zonas de aplicación (Astilleros/Yates).
+* Uso obligatorio de EPIs según el plan de seguridad.
+* Puntualidad absoluta en las ventanas de aplicación críticas.
+
+## 3. Régimen Disciplinario
+Cualquier desviación deliberada de los protocolos técnicos de Herculan será motivo de apertura de un expediente de No Conformidad (NCR) personal
