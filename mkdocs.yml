@@ -1,27 +1,17 @@
-site_name: "Piregal"
-site_description: "Portal Operativo y de Gobernanza"
-site_author: "Piregal S.L."
+site_name: "Piregal Hub | Gestión Conjunta"
+site_description: "Portal Interno de Gobernanza y Operativa"
 
 theme:
   name: material
-  language: es
-  logo: assets/logo-piregal.png  # Asegúrate de subir tu logo a esta carpeta
-  favicon: assets/favicon.ico
+  language: es # Idioma base del tema (botones, búsqueda)
+  logo: assets/logo-piregal.png
   palette:
-    # CONFIGURACIÓN DE COLORES INVERTIDA
     - scheme: slate
-      primary: black       # Barra superior (Cabecera) en Negro
-      accent: blue grey    # Detalles y botones en Gris
+      primary: black
+      accent: blue grey
       toggle:
         icon: material/brightness-4
         name: "Modo Oscuro"
-    - scheme: default
-      primary: white
-      accent: grey
-      toggle:
-        icon: material/brightness-7
-        name: "Modo Claro"
-  
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -30,61 +20,33 @@ theme:
     - search.suggest
     - search.highlight
     - header.autohide
+    - i18n # Activamos soporte para traducción si instalas el plugin
 
 nav:
-  - "🏠 Inicio": index.md
-  - "🛡️ Identidad Piregal":
-      - "📘 Introducción": 
-          - ES: v1-identidad/introduccion.md
-          - EN: v1-identidad/introduccion.en.md
-      - "👥 Quiénes Somos":
-          - ES: v1-identidad/quienes-somos.md
-          - EN: v1-identidad/quienes-somos.en.md
-      - "⚖️ Código Ético":
-          - ES: v1-identidad/codigo-etico.md
-          - EN: v1-identidad/codigo-etico.en.md
-      - "🔒 NDA (Confidencialidad)":
-          - ES: v1-identidad/nda.md
-          - EN: v1-identidad/nda.en.md
-  - "🤝 Alianza con Herculan":
-      - "📋 PMEE (Plan Maestro)":
-          - ES: v3-alianza/pmee.md
-          - EN: v3-alianza/pmee.en.md
-      - "⚙️ PSAH (Simbiosis Técnica)":
-          - ES: v3-alianza/psah.md
-          - EN: v3-alianza/psah.en.md
-      - "🏛️ Gobernanza Compartida":
-          - ES: v3-alianza/gobernanza.md
-          - EN: v3-alianza/gobernanza.en.md
-      - "📍 Hub Vigo":
-          - ES: v3-alianza/hub-vigo.md
-          - EN: v3-alianza/hub-vigo.en.md
-      - "📊 KPIs Conjuntos":
-          - ES: v3-alianza/kpis-dashboard.md
-          - EN: v3-alianza/kpis-dashboard.en.md
-  - "🛠️ Operativa de Obra":
-      - "🏗️ Protocolos":
-          - ES: v4-operativa/protocolo-obra.md
-          - EN: v4-operativa/proocolo-obra.en.md
-      - "⚠️ Registro de NCR":
-          - ES: v4-operativa/ncr.md
-          - EN: v4-operativa/ncr.en.md
-      - "📞 Gestión Astilleros":
-          - ES: v4-operativa/comunicacion-astilleros.md
-          - EN: v4-operativa/comunicacion-astilleros.en.md
-  - "👨‍🔧 Equipo Humano":
-      - "📖 Manual del Agente":
-          - ES: v6-personal/manual-trabajador.md
-          - EN: v6-personal/manual-trabajador.en.md
-      - "📒 Agenda 2026":
-          - ES: v6-personal/agenda-profesional-2026.md
-          - EN: v6-personal/agenda-profesional-2026.en.md
-  - "⚖️ Compliance":
-      - "📝 Ética Operativa": 
-          - EN: v5-compliance/etica.en.md
-      - "📖 Glosario Técnico":
-          - ES: anexos/glosario.md
-          - EN: anexos/glosario.en.md
+  - "🏠 Inicio / Home": index.md
+  - "🛡️ Identidad y Ética | Identity":
+      - "📘 ES - Introducción": v1-identidad/introduccion.md
+      - "📘 EN - Introduction": v1-identidad/introduccion.en.md
+      - "👥 ES - Quiénes Somos": v1-identidad/quienes-somos.md
+      - "👥 EN - Who We Are": v1-identidad/quienes-somos.en.md
+      - "⚖️ ES - Código Ético": v1-identidad/codigo-etico.md
+      - "⚖️ EN - Code of Ethics": v1-identidad/codigo-etico.en.md
+  - "🤝 Alianza Herculan | Alliance":
+      - "📋 ES - Plan PMEE": v3-alianza/pmee.md
+      - "📋 EN - PMEE Plan": v3-alianza/pmee.en.md
+      - "⚙️ ES - Protocolo PSAH": v3-alianza/psah.md
+      - "⚙️ EN - PSAH Protocol": v3-alianza/psah.en.md
+      - "📊 ES - KPIs Conjuntos": v3-alianza/kpis-dashboard.md
+      - "📊 EN - Joint KPIs": v3-alianza/kpis-dashboard.en.md
+  - "🛠️ Operativa Obra | Operations":
+      - "🏗️ ES - Protocolos": v4-operativa/protocolo-obra.md
+      - "🏗️ EN - Protocols": v4-operativa/proocolo-obra.en.md
+      - "⚠️ ES - Registro NCR": v4-operativa/ncr.md
+      - "⚠️ EN - NCR Registry": v4-operativa/ncr.en.md
+  - "👨‍🔧 Equipo | Staff":
+      - "📖 ES - Manual del Agente": v6-personal/manual-trabajador.md
+      - "📖 EN - Worker's Manual": v6-personal/manual-trabajador.en.md
+      - "📒 Agenda 2026": v6-personal/agenda-profesional-2026.md
 
 markdown_extensions:
   - admonition
