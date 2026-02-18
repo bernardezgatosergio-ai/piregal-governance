@@ -2,13 +2,16 @@ site_name: PIREGAL 2026
 theme:
   name: material
   language: es
+  palette:
+    primary: black
+    accent: blue
 
 nav:
-  - 'Inicio': index.md
-  - 'Identidad': docs/v1-identidad/quienes-somos.md
-  - 'Trabajador': docs/v2-trabajador/manual.md
-  - 'Alianza': docs/v3-alianza/pmee.md
-  - 'Operativa':
-      - 'Protocolo': docs/v4-operativa/protocolo-obra.md
-      - 'NCR': docs/v4-operativa/ncr.md
-  - 'Compliance': docs/v5-compliance/transparencia.md 
+  - '🏠 Inicio': index.md
+  - '📘 Identidad': v1-identidad/quienes-somos.md
+  - '👷 Trabajador': v2-trabajador/manual.md
+  - '🤝 Alianza': v3-alianza/pmee.md
+  - '🏗️ Operativa':
+      - 'Protocolo de Obra': v4-operativa/protocolo-obra.md
+      - 'NCR e Incidencias': v4-operativa/ncr.md
+  - '⚖️ Compliance': v5-compliance/transparencia.md
