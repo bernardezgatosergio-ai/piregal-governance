@@ -17,10 +17,10 @@ plugins:
   - i18n:
       default_language: es
       languages:
-        es: 
+        - locale: es  # <-- El guion aquí es la clave
           name: Español
           build: true
-        en: 
+        - locale: en  # <-- El guion aquí es la clave
           name: English
           build: true
       nav_translations:
@@ -30,7 +30,6 @@ plugins:
           "🤝 Alianza": "🤝 Alliance"
           "🛠️ Operativa": "🛠️ Operations"
           "👨‍🔧 Equipo": "👨‍🔧 Staff"
-
 nav:
   - "🏠 Inicio": index.md
   - "🛡️ Identidad":
