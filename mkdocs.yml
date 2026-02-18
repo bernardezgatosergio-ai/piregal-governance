@@ -17,10 +17,10 @@ plugins:
   - i18n:
       default_language: es
       languages:
-        - locale: es  # <-- El guion aquí es la clave
+        - locale: es
           name: Español
           build: true
-        - locale: en  # <-- El guion aquí es la clave
+        - locale: en
           name: English
           build: true
       nav_translations:
