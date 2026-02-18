@@ -33,24 +33,7 @@ plugins:
 
 nav:
   - "🏠 Inicio": index.md
-  - "🛡️ Identidad":
-      - v1-identidad/introduccion.md
-      - v1-identidad/quienes-somos.md
-      - v1-identidad/codigo-etico.md
-      - v1-identidad/nda.md
-  - "🤝 Alianza":
-      - v3-alianza/pmee.md
-      - v3-alianza/psah.md
-      - v3-alianza/hub-vigo.md
-      - v3-alianza/kpis-dashboard.md
-  - "🛠️ Operativa":
-      - v4-operativa/protocolo-obra.md
-      - v4-operativa/ncr.md
-      - v4-operativa/comunicacion-astilleros.md
-  - "👨‍🔧 Equipo":
-      - v6-personal/manual-trabajador.md
-      - v6-personal/agenda-profesional-2026.md
-
+  
 markdown_extensions:
   - admonition
   - pymdownx.details
