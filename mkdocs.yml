@@ -2,9 +2,10 @@ site_name: PIREGAL 2026
 theme:
   name: material
   language: es
-  palette:
-    primary: black
-    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
 
 nav:
   - '🏠 Inicio': index.md
