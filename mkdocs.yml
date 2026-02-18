@@ -1,6 +1,15 @@
 site_name: PIREGAL 2026
 theme:
   name: material
+  language: es
+
+plugins:
+  - i18n:
+      default_language: es
+      languages:
+        - es
+        - en
+  - search
 
 nav:
   - 'Inicio': index.md
