@@ -1,14 +1,106 @@
-site_name: PIREGAL 2026
+site_name: "Piregal-Herculan Alianza Estratégica"
+site_description: "Portal de Gobernanza, Operativa y Excelencia Técnica 2026"
+site_author: "Alianza Estratégica"
+
 theme:
   name: material
   language: es
+  logo: assets/logo.png  # Si tienes un logo, ponlo en esa ruta
+  favicon: assets/favicon.ico
+  palette:
+    - scheme: slate  # Modo oscuro por defecto (más profesional para el sector)
+      primary: grey
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mode Oscuro
+    - scheme: default
+      primary: blue grey
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Mode Claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - content.tooltips
 
 nav:
-  - '🏠 Inicio': index.md
-  - '📘 Identidad': v1-identidad/quienes-somos.md
-  - '👷 Trabajador': v2-trabajador/manual.md
-  - '🤝 Alianza': v3-alianza/pmee.md
-  - '🏗️ Operativa':
-      - 'Protocolo de Obra': v4-operativa/protocolo-obra.md
-      - 'NCR e Incidencias': v4-operativa/ncr.md
-  - '⚖️ Compliance': v5-compliance/transparencia.md
+  - "🏠 Inicio": index.md
+  - "🛡️ Identidad y Ética":
+      - "📘 Introducción": 
+          - ES: v1-identidad/introduccion.md
+          - EN: v1-identidad/introduccion.en.md
+      - "👥 Quiénes Somos":
+          - ES: v1-identidad/quienes-somos.md
+          - EN: v1-identidad/quienes-somos.en.md
+      - "⚖️ Código Ético":
+          - ES: v1-identidad/codigo-etico.md
+          - EN: v1-identidad/codigo-etico.en.md
+      - "🔒 NDA (Confidencialidad)":
+          - ES: v1-identidad/nda.md
+          - EN: v1-identidad/nda.en.md
+  - "🚀 Alianza Estratégica":
+      - "📋 PMEE (Plan Maestro)":
+          - ES: v3-alianza/pmee.md
+          - EN: v3-alianza/pmee.en.md
+      - "⚙️ PSAH (Protocolo)":
+          - ES: v3-alianza/psah.md
+          - EN: v3-alianza/psah.en.md
+      - "🏛️ Gobernanza Común":
+          - ES: v3-alianza/gobernanza.md
+          - EN: v3-alianza/gobernanza.en.md
+      - "📍 Hub Vigo":
+          - ES: v3-alianza/hub-vigo.md
+          - EN: v3-alianza/hub-vigo.en.md
+      - "📊 KPIs & Dashboard":
+          - ES: v3-alianza/kpis-dashboard.md
+          - EN: v3-alianza/kpis-dashboard.en.md
+      - "📅 Cronograma":
+          - ES: v3-alianza/cronograma.md
+          - EN: v3-alianza/cronograma.en.md
+  - "🛠️ Operativa y Control":
+      - "🏗️ Protocolo de Obra":
+          - ES: v4-operativa/protocolo-obra.md
+          - EN: v4-operativa/proocolo-obra.en.md
+      - "⚠️ Gestión de NCR":
+          - ES: v4-operativa/ncr.md
+          - EN: v4-operativa/ncr.en.md
+      - "📞 Comunicación Astilleros":
+          - ES: v4-operativa/comunicacion-astilleros.md
+          - EN: v4-operativa/comunicacion-astilleros.en.md
+  - "👨‍🔧 Cultura y Equipo":
+      - "📖 Manual del Trabajador":
+          - ES: v6-personal/manual-trabajador.md
+          - EN: v6-personal/manual-trabajador.en.md
+      - "📒 Agenda Profesional 2026":
+          - ES: v6-personal/agenda-profesional-2026.md
+          - EN: v6-personal/agenda-profesional-2026.en.md
+  - "⚖️ Compliance y Anexos":
+      - "📝 Ética Operativa": 
+          - EN: v5-compliance/etica.en.md
+      - "🤝 Responsabilidad Solidaria":
+          - ES: anexos/responsabilidad.md
+          - EN: anexos/responsabilidad.en.md
+      - "📖 Glosario Técnico":
+          - ES: anexos/glosario.md
+          - EN: anexos/glosario.en.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tu-usuario
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/tu-perfil
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
