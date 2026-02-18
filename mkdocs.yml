@@ -11,4 +11,4 @@ nav:
   - 'Operativa':
       - 'Protocolo': docs/v4-operativa/protocolo-obra.md
       - 'NCR': docs/v4-operativa/ncr.md
-  - 'Compliance': docs/v5-compliance/transparencia.md
+  - 'Compliance': docs/v5-compliance/transparencia.md 
