@@ -2,7 +2,6 @@ site_name: PIREGAL 2026
 theme:
   name: material
   language: es
-  logo: material/shield-check-outline
   features:
     - navigation.tabs
     - navigation.sections
