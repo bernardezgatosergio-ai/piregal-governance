@@ -1,57 +1,52 @@
-site_name: "Piregal Hub | Gestión Conjunta"
-site_description: "Portal Interno de Gobernanza y Operativa"
-
+site_name: "Piregal Hub"
 theme:
   name: material
-  language: es # Idioma base del tema (botones, búsqueda)
+  language: es
   logo: assets/logo-piregal.png
   palette:
     - scheme: slate
       primary: black
       accent: blue grey
-      toggle:
-        icon: material/brightness-4
-        name: "Modo Oscuro"
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
-    - search.suggest
-    - search.highlight
-    - header.autohide
-    - i18n # Activamos soporte para traducción si instalas el plugin
+
+plugins:
+  - search
+  - i18n:
+      default_language: es
+      languages:
+        es: 
+          name: Español
+          build: true
+        en: 
+          name: English
+          build: true
+      nav_translations:
+        en:
+          "Identidad": "Identity"
+          "Alianza": "Alliance"
+          "Operativa": "Operations"
+          "Equipo": "Staff"
+          "Compliance": "Compliance"
 
 nav:
-  - "🏠 Inicio / Home": index.md
-  - "🛡️ Identidad y Ética | Identity":
-      - "📘 ES - Introducción": v1-identidad/introduccion.md
-      - "📘 EN - Introduction": v1-identidad/introduccion.en.md
-      - "👥 ES - Quiénes Somos": v1-identidad/quienes-somos.md
-      - "👥 EN - Who We Are": v1-identidad/quienes-somos.en.md
-      - "⚖️ ES - Código Ético": v1-identidad/codigo-etico.md
-      - "⚖️ EN - Code of Ethics": v1-identidad/codigo-etico.en.md
-  - "🤝 Alianza Herculan | Alliance":
-      - "📋 ES - Plan PMEE": v3-alianza/pmee.md
-      - "📋 EN - PMEE Plan": v3-alianza/pmee.en.md
-      - "⚙️ ES - Protocolo PSAH": v3-alianza/psah.md
-      - "⚙️ EN - PSAH Protocol": v3-alianza/psah.en.md
-      - "📊 ES - KPIs Conjuntos": v3-alianza/kpis-dashboard.md
-      - "📊 EN - Joint KPIs": v3-alianza/kpis-dashboard.en.md
-  - "🛠️ Operativa Obra | Operations":
-      - "🏗️ ES - Protocolos": v4-operativa/protocolo-obra.md
-      - "🏗️ EN - Protocols": v4-operativa/proocolo-obra.en.md
-      - "⚠️ ES - Registro NCR": v4-operativa/ncr.md
-      - "⚠️ EN - NCR Registry": v4-operativa/ncr.en.md
-  - "👨‍🔧 Equipo | Staff":
-      - "📖 ES - Manual del Agente": v6-personal/manual-trabajador.md
-      - "📖 EN - Worker's Manual": v6-personal/manual-trabajador.en.md
-      - "📒 Agenda 2026": v6-personal/agenda-profesional-2026.md
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - "🏠 Inicio": index.md
+  - "🛡️ Identidad":
+      - introduccion.md
+      - quienes-somos.md
+      - codigo-etico.md
+      - nda.md
+  - "🤝 Alianza":
+      - v3-alianza/pmee.md
+      - v3-alianza/psah.md
+      - v3-alianza/hub-vigo.md
+      - v3-alianza/kpis-dashboard.md
+  - "🛠️ Operativa":
+      - v4-operativa/protocolo-obra.md
+      - v4-operativa/ncr.md
+      - v4-operativa/comunicacion-astilleros.md
+  - "👨‍🔧 Equipo":
+      - v6-personal/manual-trabajador.md
+      - v6-personal/agenda-profesional-2026.md
