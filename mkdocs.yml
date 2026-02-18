@@ -1,10 +1,14 @@
 nav:
-  - '🏠 Inicio': index.md
-  - '📘 Identidad':
+- '🏠 Inicio': index.md
+- '📘 Identidad':
       - 'Quiénes Somos': docs/v1-identidad/quienes-somos.md
-  - '👷 Trabajador':
+- '👷 Trabajador':
       - 'Manual de Conducta': docs/v2-trabajador/manual.md
-  - '🤝 Alianza Herculan':
+- '🤝 Alianza Herculan':
       - 'PMEE 2026': docs/v3-alianza/pmee.md
-  - '⚖️ Compliance':
+- '🤝 operativa': 
+      - 'protocolo-obra': docs/v4-operativa/protocolo-obra.md
+- '⚖️ ncr:
+      - 'ncr': docs/v4-operativa/ncr.md
+- '⚖️ Compliance:
       - 'Transparencia': docs/v5-compliance/transparencia.md
