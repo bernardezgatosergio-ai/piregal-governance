@@ -25,19 +25,19 @@ plugins:
           build: true
       nav_translations:
         en:
-          "Identidad": "Identity"
-          "Alianza": "Alliance"
-          "Operativa": "Operations"
-          "Equipo": "Staff"
-          "Compliance": "Compliance"
+          "🏠 Inicio": "🏠 Home"
+          "🛡️ Identidad": "🛡️ Identity"
+          "🤝 Alianza": "🤝 Alliance"
+          "🛠️ Operativa": "🛠️ Operations"
+          "👨‍🔧 Equipo": "👨‍🔧 Staff"
 
 nav:
   - "🏠 Inicio": index.md
   - "🛡️ Identidad":
-      - introduccion.md
-      - quienes-somos.md
-      - codigo-etico.md
-      - nda.md
+      - v1-identidad/introduccion.md
+      - v1-identidad/quienes-somos.md
+      - v1-identidad/codigo-etico.md
+      - v1-identidad/nda.md
   - "🤝 Alianza":
       - v3-alianza/pmee.md
       - v3-alianza/psah.md
@@ -50,3 +50,11 @@ nav:
   - "👨‍🔧 Equipo":
       - v6-personal/manual-trabajador.md
       - v6-personal/agenda-profesional-2026.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
