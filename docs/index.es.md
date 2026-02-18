@@ -31,3 +31,4 @@ Recursos para la excelencia del personal de Piregal:
 ---
 
 > 🛡️ **Compromiso Ético:** Todo el personal tiene la obligación de reportar cualquier desviación de los estándares técnicos o éticos definidos en el [Marco de Compliance](./v5-compliance/etica.md).
+\n

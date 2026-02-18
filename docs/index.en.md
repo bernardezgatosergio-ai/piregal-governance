@@ -31,3 +31,4 @@ Resources for the excellence of the joint technical team:
 ---
 
 > 🛡️ **Ethical Commitment:** All personnel are required to report any deviation from the technical or ethical standards defined in the [Compliance Framework](./v5-compliance/etica.en.md).
+\n
