@@ -35,6 +35,11 @@ nav:
           - "🇬🇧 View": v1-identidad/nda.en.md
 
   - "🤝 Alianza | Alliance":
+      - "📜 Documentos Rectores | Governing Docs":
+          - "🇪🇸 PMEE (Plan Maestro)": v3-alianza/pmee.md
+          - "🇬🇧 PMEE (Master Plan)": v3-alianza/pmee.en.md
+          - "🇪🇸 PSAH (Protocolo)": v3-alianza/psah.md
+          - "🇬🇧 PSAH (Protocol)": v3-alianza/psah.en.md
       - "🏛️ Gobernanza": 
           - "🇪🇸 Ver": v3-alianza/gobernanza.md
           - "🇬🇧 View": v3-alianza/gobernanza.en.md
@@ -46,13 +51,7 @@ nav:
           - "🇬🇧 View": v3-alianza/kpis-dashboard.en.md
       - "📍 Hub Vigo": 
           - "🇪🇸 Ver": v3-alianza/hub-vigo.md
-          - "🇬🇧 View": v3-alianza/hub-vigo.en.md
-      - "📂 Otros":
-          - "PMEE (ES)": v3-alianza/pmee.md
-          - "PMEE (EN)": v3-alianza/pmee.en.md
-          - "PSAH (ES)": v3-alianza/psah.md
-          - "PSAH (EN)": v3-alianza/psah.en.md
-          - "Herculan": v3-alianza/herculan.md
+          - "🇬🇧 View": v3-alianza/hub-vigo.en.md      
 
   - "⚙️ Operativa | Operations":
       - "🏗️ Protocolo Obra": 
