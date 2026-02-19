@@ -2,7 +2,7 @@
 
 ---
 <div align="center">
-## [🇪🇸 ACCEDER EN ESPAÑOL](./es/)
-## [🇬🇧 ACCESS IN ENGLISH](./en/)
+## [🇪🇸 ACCEDER EN ESPAÑOL](./es/index.html)
+## [🇬🇧 ACCESS IN ENGLISH](./en/index.html)
 </div>
 ---
