@@ -3,8 +3,6 @@ site_description: "Operational Governance & Strategic Management Portal"
 theme:
   name: material
   language: es
-  logo: assets/logo-piregal.png
-  favicon: assets/favicon.png
   palette:
     - scheme: slate
       primary: black
