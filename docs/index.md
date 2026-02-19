@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/logo-piregal.png" width="300" alt="Piregal Logo">
+</div>
+
 # 🏢 Portal de Gobernanza Piregal & Herculan
 
 ---
