@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="assets/logo-piregal.png" width="300" alt="Piregal Logo">
-</div>
 
 # 🏢 Portal de Gobernanza Piregal & Herculan
 
@@ -24,6 +21,4 @@ Welcome to the bilingual control center. This portal ensures traceability and qu
 | **👨‍🔧 Staff** | [Acceder](v5-equipo/staff.md) | [Access](v6-personal/manual-trabajador.en.md) |
 
 ---
-<div align="center">
   *Utilice el menú lateral para navegación detallada.*
-</div>
