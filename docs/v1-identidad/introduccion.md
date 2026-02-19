@@ -1,6 +1,3 @@
-Aquí tienes el contenido íntegro y formateado para el archivo docs/v1-identidad/introduccion.md. He respetado cada palabra, el tono crítico y la estructura de citas para que sea el espejo exacto de la versión en inglés.
-
-Markdown
 # 📘 PARTE I — INTRODUCCIÓN ESTRATÉGICA
 
 El ecosistema actual de los pavimentos continuos —y especialmente en el sector naval— no está simplemente bajo presión: está atravesando un proceso de colapso estructural [cite: 2026-02-18]. Esto no se debe a una falta de tecnología o de demanda, sino a la forma en que fabricantes, intermediarios e instaladores han decidido relacionarse entre sí [cite: 2026-02-18].
