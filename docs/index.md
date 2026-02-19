@@ -3,24 +3,23 @@
 ---
 
 ### 🇪🇸 Gestión Operativa y Estratégica
-Bienvenido al centro de control bilingüe. Este portal garantiza que todos los protocolos, desde la identidad corporativa hasta los reportes de no conformidad (NCR) en obra, sean accesibles para los equipos de España y los socios internacionales de Herculan.
+Bienvenido al centro de control bilingüe. Este portal garantiza la trazabilidad y calidad entre **Piregal** y **Herculan**.
 
 ### 🇬🇧 Operational & Strategic Management
-Welcome to the bilingual control center. This portal ensures that all protocols, from corporate identity to site Non-Conformance Reports (NCR), are accessible to both the Spanish teams and Herculan's international partners.
+Welcome to the bilingual control center. This portal ensures traceability and quality between **Piregal** and **Herculan**.
 
 ---
 
 ## 🚀 Acceso Rápido / Quick Access
 
-| Sección / Section | Descripción / Description |
-| :--- | :--- |
-| **🛡️ Identity** | Valores, Código Ético y NDA / Values, Ethics, and NDA. |
-| **🤝 Alliance** | Gobernanza y KPIs del Hub Vigo / Governance and Vigo Hub KPIs. |
-| **🏗️ Operations** | Protocolos de Obra y NCR / Site Protocols and NCR. |
-| **👨‍🔧 Staff** | Manuales y Agenda 2026 / Manuals and 2026 Agenda. |
+| Sección / Section | 🇪🇸 Español | 🇬🇧 English |
+| :--- | :--- | :--- |
+| **🛡️ Identidad** | [Acceder](v1-identidad/introduccion.md) | [Access](v1-identidad/introduccion.en.md) |
+| **🤝 Alianza** | [Acceder](v3-alianza/gobernanza.md) | [Access](v3-alianza/gobernanza.en.md) |
+| **🏗️ Operativa** | [Acceder](v4-operativa/protocolo-obra.md) | [Access](v4-operativa/proocolo-obra.en.md) |
+| **👨‍🔧 Staff** | [Acceder](v5-equipo/staff.md) | [Access](v6-personal/manual-trabajador.en.md) |
 
 ---
 <div align="center">
-  *Utilice el menú superior o lateral para navegar.*<br>
-  *Use the top or side menu to navigate.*
+  *Utilice el menú lateral para navegación detallada.*
 </div>
