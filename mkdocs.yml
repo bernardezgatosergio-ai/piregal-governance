@@ -2,42 +2,15 @@ site_name: "Piregal Hub"
 theme:
   name: material
   language: es
-  logo: assets/logo-piregal.png
   palette:
     - scheme: slate
       primary: black
       accent: blue grey
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-
-plugins:
-  - search
-  - i18n:
-      default_language: es
-      languages:
-        - locale: es
-          name: Español
-          build: true
-        - locale: en
-          name: English
-          build: true
-      nav_translations:
-        en:
-          "🏠 Inicio": "🏠 Home"
-          "🛡️ Identidad": "🛡️ Identity"
-          "🤝 Alianza": "🤝 Alliance"
-          "🛠️ Operativa": "🛠️ Operations"
-          "👨‍🔧 Equipo": "👨‍🔧 Staff"
-
 nav:
-  - "🏠 Inicio": index.md
-  
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - "🏠 Inicio | Home": index.md
+  - "🛡️ Identidad | Identity":
+      - "🇪🇸 Introducción": v1-identidad/introduccion.md
+      - "🇬🇧 Introduction": v1-identidad/introduccion.en.md
+  - "🛠️ Operativa | Ops":
+      - "🇪🇸 Reporte NCR": v4-operativa/ncr.md
+      - "🇬🇧 NCR Report": v4-operativa/ncr.en.md
