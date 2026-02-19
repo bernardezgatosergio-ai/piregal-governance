@@ -1,16 +1,95 @@
 site_name: "Piregal Hub"
+site_description: "Operational Governance & Strategic Management Portal"
 theme:
   name: material
   language: es
+  logo: assets/logo-piregal.png
+  favicon: assets/favicon.png
   palette:
     - scheme: slate
       primary: black
-      accent: blue grey
+      accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
 nav:
   - "🏠 Inicio | Home": index.md
+  
   - "🛡️ Identidad | Identity":
-      - "🇪🇸 Introducción": v1-identidad/introduccion.md
-      - "🇬🇧 Introduction": v1-identidad/introduccion.en.md
-  - "🛠️ Operativa | Ops":
-      - "🇪🇸 Reporte NCR": v4-operativa/ncr.md
-      - "🇬🇧 NCR Report": v4-operativa/ncr.en.md
+      - "📁 Introducción": 
+          - "🇪🇸 Ver": v1-identidad/introduccion.md
+          - "🇬🇧 View": v1-identidad/introduccion.en.md
+      - "👥 Quiénes Somos": 
+          - "🇪🇸 Ver": v1-identidad/quienes-somos.md
+          - "🇬🇧 View": v1-identidad/quienes-somos.en.md
+      - "⚖️ Código Ético": 
+          - "🇪🇸 Ver": v1-identidad/codigo-etico.md
+          - "🇬🇧 View": v1-identidad/codigo-etico.en.md
+      - "📝 NDA": 
+          - "🇪🇸 Ver": v1-identidad/nda.md
+          - "🇬🇧 View": v1-identidad/nda.en.md
+
+  - "🤝 Alianza | Alliance":
+      - "🏛️ Gobernanza": 
+          - "🇪🇸 Ver": v3-alianza/gobernanza.md
+          - "🇬🇧 View": v3-alianza/gobernanza.en.md
+      - "📅 Cronograma": 
+          - "🇪🇸 Ver": v3-alianza/cronograma.md
+          - "🇬🇧 View": v3-alianza/cronograma.en.md
+      - "📊 KPIs Dashboard": 
+          - "🇪🇸 Ver": v3-alianza/kpis-dashboard.md
+          - "🇬🇧 View": v3-alianza/kpis-dashboard.en.md
+      - "📍 Hub Vigo": 
+          - "🇪🇸 Ver": v3-alianza/hub-vigo.md
+          - "🇬🇧 View": v3-alianza/hub-vigo.en.md
+      - "📂 Otros":
+          - "PMEE (ES)": v3-alianza/pmee.md
+          - "PMEE (EN)": v3-alianza/pmee.en.md
+          - "PSAH (ES)": v3-alianza/psah.md
+          - "PSAH (EN)": v3-alianza/psah.en.md
+          - "Herculan": v3-alianza/herculan.md
+
+  - "⚙️ Operativa | Operations":
+      - "🏗️ Protocolo Obra": 
+          - "🇪🇸 Ver": v4-operativa/protocolo-obra.md
+          - "🇬🇧 View": v4-operativa/proocolo-obra.en.md
+      - "🚨 Reporte NCR": 
+          - "🇪🇸 Ver": v4-operativa/ncr.md
+          - "🇬🇧 View": v4-operativa/ncr.en.md
+      - "📡 Comunicación": 
+          - "🇪🇸 Ver": v4-operativa/comunicacion-astilleros.md
+          - "🇬🇧 View": v4-operativa/comunicacion-astilleros.en.md
+
+  - "👥 Equipo | Staff":
+      - "👨‍🔧 Staff Roles": v5-equipo/staff.md
+      - "📘 Manual": 
+          - "🇪🇸 Ver": v6-personal/manual-trabajador.md
+          - "🇬🇧 View": v6-personal/manual-trabajador.en.md
+      - "🗓️ Agenda 2026": 
+          - "🇪🇸 Ver": v6-personal/agenda-profesional-2026.md
+          - "🇬🇧 View": v6-personal/agenda-profesional-2026.en.md
+      - "🛡️ Compliance": v5-compliance/etica.en.md
+
+  - "📎 Anexos | Appendix":
+      - "📜 NCR Protocol": 
+          - "🇪🇸 Ver": anexos/protocolo-ncr.md
+          - "🇬🇧 View": anexos/protocolo-ncr.en.md
+      - "⚖️ Responsibility": 
+          - "🇪🇸 Ver": anexos/responsabilidad.md
+          - "🇬🇧 View": anexos/responsabilidad.en.md
+      - "📖 Glosario": 
+          - "🇪🇸 Ver": anexos/glosario.md
+          - "🇬🇧 View": anexos/glosario.en.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
